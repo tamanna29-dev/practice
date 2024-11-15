@@ -1,0 +1,158 @@
+/*-- ============== common css ============ --*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul,li,ol{
+    list-style: none;
+}
+a,span{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,a,span,img,svg,div,section{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1400px;
+    margin:auto;
+    
+}
+
+/*-- ============== common css ============ --*/
+
+/*-- ============== Navbar css ============ --*/
+
+#navbar{
+    background-color: #1C1E53;
+}
+.navWrapper{
+    padding: 32px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  #1C1E53;
+    ;
+}
+.navItemWrapper{
+    display: flex;
+    flex-direction: row;
+    column-gap: 32px;
+    align-items: center;
+}
+.navLink{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+color: #ffffff;
+transition: all linear .3s;
+}
+.navLink:hover{
+    color: coral;
+}
+.ContactusBtn{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+color: black;
+padding: 16px 48px ;
+border:none ;
+border-radius:41px ;
+background:rgb(0, 153, 255);
+    
+}
+
+/*-- ============== Navbar css ============ --*/
+
+
+/*-- ============== banner css ============ --*/
+#banner{
+    padding: 123px 0px;
+    background-color: #1C1E53;
+}
+.bannerLeft__Title{
+font-family: Poppins;
+font-size: 54px;
+font-weight: 600;
+line-height: 74px;
+color: #ffffff;
+}
+.bannerLeft__Summary{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+color: #ffffff;
+}
+.bannerWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  #1C1E53;
+    ;
+}
+.bannerWrapperLeft{
+    max-width: 582px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+.viewourwork{
+max-width: 230px;
+font-family: Manrope;
+font-size: 18px;
+font-weight: 600;
+color: black;
+background:#FCD980;
+border-radius: 41px;
+padding:16px 56px;
+border:none;
+transition: all linear 0.5s;
+cursor: pointer;
+}
+.viewourwork:hover{
+    background: orangered;
+}
+
+/*-- ============== banner css ============ --*/
+
+/*-- ============== How we work section part css ============ --*/
+.Howwework{
+    margin: 99px 0;
+}
+.Howwework__Left{
+    max-width: 405px;
+}
+.Howwework__Title{
+    font-family: poppins;
+    font-weight: 600px;
+    font-size: 48px;
+    color: #282938;
+    padding-bottom: 16px;
+}
+.Howwework__Summary{
+    font-family: poppins;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #282938;
+    padding-bottom: 16px;
+}
+.Howwework__Btn{
+     max-width: 244px;
+    font-size: 18px;
+    font-weight: 400px;
+    border: none;
+    color: #2405F2;
+    background-color: #ffffff;
+}
+
+/*-- ============== How we work section part css ============ --*/
+
+
